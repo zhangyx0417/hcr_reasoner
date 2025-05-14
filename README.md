@@ -6,7 +6,7 @@
 
 ## Benchmark
 
-**AC-Bench** is a newly introduced benchmark designed to evaluate actual causality reasoning in large language models. It consists of ~1K carefully annotated samples, each providing detailed reasoning steps for determining actual causal relationships.
+**AC-Bench** is a newly introduced benchmark designed to evaluate actual causality reasoning in large language models. It consists of ~1K carefully annotated samples, each providing detailed reasoning steps for determining actual causal relationships. [AC-Bench is open-sourced on Huggingface!](https://huggingface.co/datasets/zhangyx2001/AC-Bench)
 
 ## Features
 
