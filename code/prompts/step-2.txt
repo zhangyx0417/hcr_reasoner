@@ -1,0 +1,11 @@
+Based on the story and causal setting, reason about the values of the following causal factors for each causal event.
+
+1. `sufficient = true` if in the story, had a causal event occurred, the outcome event would have occurred, even if other causal events had occurred differently.
+2. `necessary = true` if in the story, had a causal event not occurred, the outcome event would not have occurred.
+3. `halpern_pearl = true` if in the story, had a causal event not occurred, the outcome event would not have occurred, while allowing at least a subset of events in the causal setting to remain occurred had a causal event not occurred.
+* `sufficient = true`, `necessary = true`, and `halpern_pearl = true` can be satisfied through a path from a causal event to the outcome event, passing through other causal events.
+4. `norm_violated = true` if in the story, a causal event violates norms, such as statistical modes, moral codes, laws, policies, or proper functioning in machines or organisms.
+5. `behavior_intended = true` if in the story, a causal event is an agent's behavior and the agent is aware of the potential consequences of their action and knowingly performs an action that leads to a foreseeable bad outcome.
+
+Return the values of factors for causal events in the following JSON format: {{CAUSAL_EVENT: {{"sufficient": true/false, "necessary": true/false, "halpern_pearl": true/false, "norm_violated": true/false, "behavior_intended": true/false}}, ...}}.
+Return only the JSON, without any extra information.

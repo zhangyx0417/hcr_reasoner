@@ -1,0 +1,17 @@
+**Story**: {story}
+**Query**: {query}
+
+Based on the story and query of a logic-based causal judgment problem, establish the causal setting as follows.
+
+1. Summarize the **causal events** and **outcome event** based on the story and query.
+    - The causal events should causally contribute to the outcome event.
+    - The causal events should be minimal/atomic and non-overlapping.
+2. Label the **occurrences** and **temporal orders** of events based on the story.
+    - Label `occur` as `true` if an event actually occurs.
+    - Label `order` as an integer starting from 0, where simultaneous events share the same `order`.
+3. Label the **focal causal events** based on the query.
+    - If the query asks whether a causal event causes the outcome event, the causal event has `focal = true`.
+    - If the query asks whether an agent causes the outcome event, all causal events reflecting the agent's behaviors have `focal = true`.
+
+Return the causal setting in the following JSON format: {{"causal_events": {{CAUSAL_EVENT: {{"occur": true/false, "order": ORDER, "focal": true/false}}, ...}}, "outcome_event": {{OUTCOME_EVENT: {{"occur": true/false, "order": ORDER}}}}}}.
+Return only the JSON, without any extra information.
