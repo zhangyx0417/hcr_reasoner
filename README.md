@@ -15,13 +15,7 @@
 
 <img src="figs/benchmark.png" style="width:100%">
 
-## Features
-
-- **Theory-Guided Actual Causal Reasoning**: AC-Reason incorporates formal AC theory into the reasoning process, offering better interpretability and more accurate causal conclusions.
-- **More Comprehensive Evaluation**: AC-Reason includes **AC-Bench**, a benchmark dataset with ~1K carefully annotated samples that provides detailed reasoning steps for testing and improving LLM performance.
-- **Improved Model Performance**: AC-Reason demonstrates superior performance compared to baseline models on actual causal reasoning tasks on **Big-Bench Hard Causal Judgment** and **AC-Bench**.
-
-## Project Directory Structure
+## Project Structure
 
 The repository is organized as follows:
 
@@ -35,8 +29,8 @@ hcr_reasoner/
 │   ├── vanilla.py             # Baseline: Vanilla
 │   ├── zero.py                # Baseline: Zero-shot CoT
 │   ├── manual.py              # Baseline: Manual CoT
-│   ├── so.py                  # Ablation: Stage 1 only
-│   ├── fo.py                  # Ablation: Stage 1 and Stage 2
+│   ├── fo.py                  # Ablation: Stage 1 only
+│   ├── ft.py                  # Ablation: Stage 1 and Stage 2
 │   ├── utils.py               # Utility functions
 ├── data/                      # Datasets
 │   ├── hcr_bench.json         # Our proposed HCR-Bench dataset
