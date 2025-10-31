@@ -1,9 +1,9 @@
 <h1 align="center"> HCR-Reasoner: Synergizing Large Language Models and Theory for Human-like Causal Reasoning </h1>
 
-<p align="center">
-<a href='https://arxiv.org/abs/2505.08750'><img src='https://img.shields.io/badge/arXiv-2505.08750-b31b1b.svg'></a>  
-<a href="https://github.com/zhangyx0417/hcr_reasoner" target="_blank"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/zhangyx0417/hcr_reasoner?style=social"></a>
-</p>
+<!-- <p align="center"> -->
+<!-- <a href='https://arxiv.org/abs/2505.08750'><img src='https://img.shields.io/badge/arXiv-2505.08750-b31b1b.svg'></a>   -->
+<!-- <a href="https://github.com/zhangyx0417/hcr_reasoner" target="_blank"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/zhangyx0417/hcr_reasoner?style=social"></a> -->
+<!-- </p> -->
 
 ## 💡 Overview
 
